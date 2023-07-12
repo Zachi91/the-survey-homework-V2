@@ -1,0 +1,16 @@
+string name;
+string age;
+string zodiac;
+string work;
+            
+Console.Write("Введите Ваше имя: ");
+name = Console.ReadLine();
+Console.Write("Введите Ваш возраст: ");
+age = Console.ReadLine();
+Console.Write("Введите Ваш знак зодиака: ");
+zodiac = Console.ReadLine();
+Console.Write("Введите кем Вы работаете: ");
+work = Console.ReadLine();
+
+Console.WriteLine($"Вас зовут - {name}, Ваш возраст - {age}, Вы - {zodiac}, работаете - {work}.");
+Console.ReadKey();
